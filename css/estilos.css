@@ -1,0 +1,325 @@
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.logo_pagina {
+  padding-top: 10px;
+}
+
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  color: rgb(35, 117, 176);
+  font-size: 20px;
+  
+}
+.h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(117, 48, 69);
+  font-weight: bold;
+  font-size: medium;
+  margin-top: 10px;
+}
+.p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(163, 127, 83)  
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(147, 106, 55);
+  margin-top: 40px;
+}
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  color: white;
+  font-size: 50px;
+}
+h5 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h6 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: medium;
+}
+
+.menu-header {
+  display: flex;
+  flex-direction: row;
+}
+.menu-header li {
+  list-style: none;
+  padding: 10px;
+  padding-top: 40px;
+}
+/* Extra small devices (phones, 600px and down)
+@media only screen and (max-width: 600px) {
+  .menu-header {
+    white-space: 0%;
+  }
+  } */
+
+
+/* @media screen and (max-width: 600px) {
+  .menu-header {
+    width: 20%;
+    flex-direction: column;
+    margin: 0%;
+    padding: 0%;
+  }
+}
+   */
+
+
+
+.header2 {
+  display: flex;
+  flex-direction: row;
+  grid-template-rows: 60px;
+  justify-content: center;
+  padding-left: 25px;
+  padding-right: 25px;
+  align-items: center;
+  
+}
+
+.header2 ul {
+  display: flex;
+  flex-direction: row;
+}
+.header2 ul li {
+  list-style: none;
+  padding: 10px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: end;
+}
+.header2 ul li a {
+  text-decoration: none;
+  color: rgb(147, 106, 55);
+  text-transform: uppercase;
+}
+
+.menu-header:hover {
+  box-shadow:  rgb(147, 106, 55);
+}
+a:hover { font-weight: bolder;}
+
+
+@media screen and (max-width: 600px) {
+  .header2 ul {
+    flex-direction: column;
+  }
+  .header2 ul li {
+    padding: 1px;
+    text-align: center;
+  }
+
+  .header2 ul li a {
+    float: none;
+    width: 100%;
+    margin-bottom: 3px;
+    font-size: 15px;
+  }
+}
+
+.titulo {
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+.portada2 {
+  display: flex;
+}
+.section {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.texto-portada-recetas {
+  text-align: center;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(117, 48, 69);
+  font-weight: bold;
+}
+.img-portada {
+  padding: 20px 0px 35px 0px;
+}
+
+.btn {
+  border-radius: 0px;
+  padding: 10px 20px;
+  margin-bottom: 40px;
+  background-color: rgb(163, 127, 83);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.foto-trucos {
+  padding-top: 40px;
+  margin-bottom: 40px;
+}
+.fondo_trucos {
+  background-image: url(../media/foto-trucos.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.btn_blanco {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  border-radius: 0px;
+  padding: 10px 20px;
+  margin-bottom: 40px;
+  background-color: white;
+  color: rgb(163, 127, 83)
+}
+.footer {
+  margin-top: 60px;
+  margin-bottom: 100px;
+  align-items: center;
+  
+}
+.copy-right {
+  color: gray;
+}
+.recetas-margin {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.fondo_contacto {
+  background-image: url(../media/header-contacto.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.fondo_recetas {
+  background-image: url(../media/header-recetas.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.form-floating {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.contacto-titulo {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif; 
+  color: rgb(147, 106, 55);
+  
+}
+.fondo_postre {
+  background-image: url(../media/header-postres.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.font-trucos{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(117, 48, 69);
+  font-weight: bold;
+  font-size: 20px;
+
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  color:#ccc;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  
+  
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  color: #517295;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: rgb(117, 48, 69);
+}
+
+/* Add a background color and some padding around the form */
+.contacto {
+  border-radius: 5px;
+  background-color:#517295; 
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:white; 
+}
+.noticias_deliciosas {
+  background-color:#517295;
+  
+  
+}
+.email_noticias_deliciosas {
+  border-radius: 0%;
+  color:#517295;
+ 
+}
+.btn_enviar {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  border-radius: 0px;
+  padding: 10px 20px;
+  margin-bottom: 40px;
+  background-color: white;
+  color:#517295; 
+  
+}
+.btn_seguir {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  border-radius: 0px;
+  padding: 10px 20px;
+  margin-bottom: 50px;
+  background-color:rgb(163, 127, 83);
+  color: white;
+  
+}
+
+
+
+.espacio {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.img-portada:hover{
+  box-shadow: -1px 9px 40px -12px; color: rgb(163, 127, 83);
+}
+.hover-trucos:hover {
+  box-shadow: -1px 9px 40px -12px; color: rgb(163, 127, 83);
+}
+
